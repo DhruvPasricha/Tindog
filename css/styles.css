@@ -48,11 +48,13 @@ h1 {
 /* Title-Image */
 
 .title-image {
-  width: 60%;
+  /* width: 60%; */
+  height: 80%;
   transform: rotate(25deg);
-  position: relative;
+  position: absolute;
   margin-right: auto;
-  left: 30%;
+  left: 65%;
+  /* right: 20%; */
 }
 /* Features Section */
 
@@ -141,7 +143,9 @@ h2 {
   .title-image {
     transform: rotate(0deg);
     position: static;
-    /* width: 10%; */
+    width: 60%;
+    margin-right: auto;
+    left: 30%;
   }
 }
 
