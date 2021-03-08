@@ -25,19 +25,18 @@ h1 {
 }
 
 .nav-item {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .container-fluid {
   padding-left: 0;
 }
-
 /* Download Buttons */
 
 .downloadButtons {
@@ -107,8 +106,8 @@ h2 {
 
 #press {
   background-color: #ef8172;
-  /* text-align: center; */
-  padding-bottom: 3%;
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .press-logo {
@@ -139,6 +138,7 @@ h2 {
 @media (max-width: 990px) {
   body {
     text-align: center;
+    zoom: 140%;
   }
   .title-image {
     transform: rotate(0deg);
